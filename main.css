@@ -1,20 +1,29 @@
 body{
+    width: 75%;
     margin: 0;
     padding: 0;
-    font-family: "Courier New", Courier, monospace;
+    font-family: sans-serif, Arial;
 }
 
 h1 {
     font-family: sans-serif,Arial, Helvetica;
     color: #ffffff;
 }
-#tuebingen{
 
+#tuebingen{
   background: url("https://images.fineartamerica.com/images-medium-large-5/punts-on-river-neckar-in-lovely-old-tuebingen-germany-matthias-hauser.jpg") no-repeat center;
   height: 200px;
   width: 1250px;
   font-size: 50px;
   padding-top: 150px;
   padding-bottom: 0px;
+}
 
+span {
+  font-weight: bold;
+}
+
+#date{
+  font-weight: bolder;
+  font-style: italic;
 }
